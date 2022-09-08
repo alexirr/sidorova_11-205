@@ -3,13 +3,42 @@ public class Program {
 		System.out.println("________________________________");
 		System.out.println("|   &   |   &   |   &   |   &  |");
 		System.out.println("________________________________");
-		System.out.println("|  True | False | True  | False|");
+		System.out.println("|  true | false | true  | false|");
 		System.out.println("________________________________");
-		System.out.println("|  True | True  | False | False|");
+		System.out.println("|  true | true  | false | false|");
 		System.out.println("________________________________");
-		System.out.println("|  True | False | False | False|");
+		System.out.println("| " + (true&true) + " | " + (false&true) + " | " + (true&false) + " | "  + (false&false) + " |");
+		System.out.println("--------------------------------");
+
+		System.out.println("________________________________");
+		System.out.println("|   |   |   |  |   |   |   | |");
+		System.out.println("________________________________");
+		System.out.println("|  true | false | true  | false|");
+		System.out.println("________________________________");
+		System.out.println("|  true | true  | false | false|");
+		System.out.println("________________________________");
+		System.out.println("| " + (true|true) + " | " + (false|true) + " | " + (true|false) + " | "  + (false|false) + " |");
+		System.out.println("--------------------------------");
+
+		System.out.println("________________________________");
+		System.out.println("|   ^   |   ^   |   ^   |   ^  |");
+		System.out.println("________________________________");
+		System.out.println("|  true | false | true  | false|");
+		System.out.println("________________________________");
+		System.out.println("|  true | true  | false | false|");
+		System.out.println("________________________________");
+		System.out.println("| " + (true^true) + " | " + (false^true) + " | " + (true^false) + " | "  + (false^false) + " |");
+		System.out.println("--------------------------------");
+
+		System.out.println("________________________________");
+		System.out.println("|   !   |   !   |");
+		System.out.println("________________________________");
+		System.out.println("|  true | false |");
+		System.out.println("________________________________");
+		System.out.println("| " + (!(true)) + " | " + (!(false)) + " |");
 		System.out.println("--------------------------------");
 	}
+
 
 }
 	
